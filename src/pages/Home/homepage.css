@@ -1,0 +1,79 @@
+.hero-image-container {
+    padding: 0.7rem;
+    width: 100%;
+    height: 30em;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    color: var(--white-color);
+    padding: 1rem;
+}
+
+.explore-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+
+.btn-text {
+    color: black;
+    text-decoration: none;
+}
+
+.sub-cards {
+    display: flex;
+    padding: 5rem 2rem;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+/* Category Section */
+
+.category-card {
+    width: 40rem;
+    height: 30vh;
+    border: 1px solid var(--white-color);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.category-card:hover {
+    transform: scale(1.1);
+}
+
+
+.category-img {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: block;
+    object-fit: contain;
+}
+
+.image-container {
+    max-width: 95%;
+    height: 20vh;
+}
+
+.category-name {
+    color: var(--black-color);
+}
+
+
+@media screen and (max-width: 720px) {
+    .sub-cards {
+        flex-direction: column;
+    }
+}

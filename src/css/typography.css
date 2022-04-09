@@ -1,0 +1,51 @@
+.text-size-l {
+    font-size: 2.5rem;
+}
+
+.text-size-m {
+    font-size: 2rem;
+}
+
+.text-size-normal{
+    font-size: 1.5rem;
+}
+
+.text-size-sm {
+    font-size: 1rem;
+}
+
+.text-size-xsm {
+    font-size: 0.5rem;
+}
+
+.text-size-xl {
+    font-size: 2.8rem;
+}
+
+.text-size-xxl {
+    font-size: 3.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-wt-light {
+    font-weight: 300;
+}
+
+.font-wt-regular {
+    font-weight: 400;
+}
+
+.font-wt-semibold {
+    font-weight: 600;
+}
+
+.font-wt-bold {
+    font-weight: 700;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
