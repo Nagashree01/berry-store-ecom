@@ -8,8 +8,8 @@ export default function Category() {
 
   const getData = async () => {
     try {
-      const response = await axios.get("/api/categories");
-      setCategory(response.data.categories);
+       const {data} =await axios.get("/api/categories");
+       setCategory(data.categories);
     } catch (err) {
       console.log(err);
     }

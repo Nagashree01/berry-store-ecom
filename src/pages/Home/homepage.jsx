@@ -1,7 +1,6 @@
 import React from "react";
 import "./homepage.css";
 import { Link } from "react-router-dom";
-//import NavBar from "../../components/shared/navbar/navbar";
 import Footer from "../../components/shared/footer/footer";
 import Category from "../../components/categories/category";
 import NavBar from "../../components/shared/navbar/navbar";
@@ -36,4 +35,3 @@ export const HomePage = () => {
       </div>
     );
   };
-  
